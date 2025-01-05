@@ -1,10 +1,23 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Google Reviews
+Este proyecto utiliza **Nuxt 3.15.1 para construir una aplicación minimalista. Asegúrate de leer la [documentación de Nuxt 3](https://nuxt.com/docs/getting-started/introduction) para más información.
+
+## Configuración del Entorno
+
+Este proyecto requiere un archivo `.env` en el directorio raíz para almacenar configuraciones sensibles. 
+
+### Variables de Entorno Requeridas
+
+Crea un archivo `.env` en la raíz del proyecto y define las siguientes variables:
+
+```env
+# Clave de API para los servicios de Google (requerida)
+NUXT_PUBLIC_GOOGLE_MAP_API_KEY=tu_api_key_aqui
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
-Make sure to install the dependencies:
+Asegúrate de instalar las dependencias antes de ejecutar el proyecto:
 
 ```bash
 # npm
@@ -20,9 +33,9 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Servidor de Desarrollo
 
-Start the development server on `http://localhost:3000`:
+Inicia el servidor de desarrollo en `http://localhost:3000`:
 
 ```bash
 # npm
@@ -38,9 +51,9 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Producción
 
-Build the application for production:
+Construye la aplicación para producción:
 
 ```bash
 # npm
@@ -72,7 +85,4 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# nuxt-google-reviews
-# nuxt-google-reviews
-# nuxt-google-reviews
+Consulta la [documentación de despliegue](https://nuxt.com/docs/getting-started/deployment) para más información.
