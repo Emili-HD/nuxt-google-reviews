@@ -11,9 +11,9 @@ Crea un archivo `.env` en la raíz del proyecto y define las siguientes variable
 
 ```env
 # Clave de API para los servicios de Google (requerida)
-NUXT_PUBLIC_GOOGLE_MAP_API_KEY=tu_api_key_aqui
+NUXT_PUBLIC_GOOGLE_MAP_API_KEY=tu_api_key
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+````
 
 ## Setup
 
