@@ -20,6 +20,9 @@ NUXT_PUBLIC_GOOGLE_MAP_API_KEY=tu_api_key
 Asegúrate de instalar las dependencias antes de ejecutar el proyecto:
 
 ```bash
+## title {.tabset .tabset-fade}
+content above tabbed region.
+
 ### tab npm
 npm install
 
