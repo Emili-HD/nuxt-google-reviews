@@ -19,7 +19,7 @@ NUXT_PUBLIC_GOOGLE_MAP_API_KEY=tu_api_key
 
 Asegúrate de instalar las dependencias antes de ejecutar el proyecto:
 
-```bash
+
 ## title {.tabset .tabset-fade}
 content above tabbed region.
 
@@ -34,7 +34,6 @@ yarn install
 
 ### tab bun
 bun install
-```
 
 ## Servidor de Desarrollo
 
