@@ -20,16 +20,16 @@ NUXT_PUBLIC_GOOGLE_MAP_API_KEY=tu_api_key
 Asegúrate de instalar las dependencias antes de ejecutar el proyecto:
 
 ```bash
-# npm
+### tab npm
 npm install
 
-# pnpm
+### tab pnpm
 pnpm install
 
-# yarn
+### tab yarn
 yarn install
 
-# bun
+### tab bun
 bun install
 ```
 
@@ -38,16 +38,16 @@ bun install
 Inicia el servidor de desarrollo en `http://localhost:3000`:
 
 ```bash
-# npm
+### tab npm
 npm run dev
 
-# pnpm
+### tab pnpm
 pnpm run dev
 
-# yarn
+### tab yarn
 yarn dev
 
-# bun
+### tab bun
 bun run dev
 ```
 
@@ -56,16 +56,16 @@ bun run dev
 Construye la aplicación para producción:
 
 ```bash
-# npm
+### tab npm
 npm run build
 
-# pnpm
+### tab pnpm
 pnpm run build
 
-# yarn
+### tab yarn
 yarn build
 
-# bun
+### tab bun
 bun run build
 ```
 
