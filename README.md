@@ -12,44 +12,41 @@ Crea un archivo `.env` en la raíz del proyecto y define las siguientes variable
 ```env
 # Clave de API para los servicios de Google (requerida)
 NUXT_PUBLIC_GOOGLE_MAP_API_KEY=tu_api_key
-
 ````
 
 ## Setup
 
 Asegúrate de instalar las dependencias antes de ejecutar el proyecto:
 
-
-## title {.tabset .tabset-fade}
-content above tabbed region.
-
-### tab npm
+```bash
+# npm
 npm install
 
-### tab pnpm
+# pnpm
 pnpm install
 
-### tab yarn
+# yarn
 yarn install
 
-### tab bun
+# bun
 bun install
+```
 
 ## Servidor de Desarrollo
 
 Inicia el servidor de desarrollo en `http://localhost:3000`:
 
 ```bash
-### tab npm
+# npm
 npm run dev
 
-### tab pnpm
+# pnpm
 pnpm run dev
 
-### tab yarn
+# yarn
 yarn dev
 
-### tab bun
+# bun
 bun run dev
 ```
 
@@ -58,16 +55,16 @@ bun run dev
 Construye la aplicación para producción:
 
 ```bash
-### tab npm
+# npm
 npm run build
 
-### tab pnpm
+# pnpm
 pnpm run build
 
-### tab yarn
+# yarn
 yarn build
 
-### tab bun
+# bun
 bun run build
 ```
 
