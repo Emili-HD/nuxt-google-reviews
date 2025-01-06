@@ -1,6 +1,5 @@
 <template>
     <div>
-        <!-- <h2 class="text-2xl font-bold">Reseñas de Google</h2> -->
         <div class="flex flex-col lg:flex-row">
             <div v-if="averageRating !== null && totalReviews !== null"
                 class="my-4 w-full lg:w-1/6 flex flex-col items-center">
@@ -139,19 +138,9 @@
     }
 </script>
 
-
-
 <style scoped>
     .fill-gold-1 {
-        fill: #F6BB09;
-    }
-
-    .text-wrapper p {
-        transition: max-height 1s ease;
-    }
-
-    .swiper {
-        @apply list-none lg:px-6 pb-16 flex flex-col lg:flex-row gap-6 w-full lg:w-5/6;
+        @apply fill-[#F6BB09]
     }
 
     .swiper-button-prev,

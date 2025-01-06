@@ -1,5 +1,5 @@
 <template>
-    <div class="hello">
+    <div class="reviews-title">
         Reseñas de nuestros clientes
     </div>
     <GoogleReviews />
@@ -10,7 +10,7 @@
 </script>
 
 <style scoped>
-    .hello {
+    .reviews-title {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 3rem;
         padding: 2rem;

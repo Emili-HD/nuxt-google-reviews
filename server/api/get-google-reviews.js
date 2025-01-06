@@ -1,3 +1,4 @@
+// server/api/get-google-reviews.js
 import { getQuery } from 'h3';
 
 export default defineEventHandler(async (event) => {
